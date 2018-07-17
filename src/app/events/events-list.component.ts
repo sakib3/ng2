@@ -6,8 +6,10 @@ import { Component } from '@angular/core'
     <div>
         <h1>Upcomming Events</h1>
         <hr>
+        {{myTemplateVariable.childVariable}}
         <event-thumbnail 
-        (eventClick) = "handleEventClick($event)" 
+        #myTemplateVariable
+        (click) = "myTemplateVariable.logFoo()" 
         [event] = event1></event-thumbnail> 
     </div>
     `
@@ -25,9 +27,5 @@ export class EventListComponent {
             city: 'London',
             country: 'England'
         }
-    }
-
-    handleEventClick(eventData) {
-        console.log(eventData)
     }
 }
