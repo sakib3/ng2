@@ -3,10 +3,10 @@ import { Component } from '@angular/core'
 @Component({
     selector: 'events-list',
     template: `
+    <nav-bar></nav-bar>
     <div>
         <h1>Upcomming Events</h1>
         <hr>
-        {{myTemplateVariable.childVariable}}
         <event-thumbnail 
         #myTemplateVariable
         (click) = "myTemplateVariable.logFoo()" 
