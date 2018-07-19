@@ -42,7 +42,7 @@ const EVENTS = [
         date: '1/10/2046',
         time: '08:00 am',
         price: 899.99,
-        imageUrl: '/assets/images/vue-conf.jpg',
+        imageUrl: '/assets/images/vue-conf.png',
         location: {
             address: '7 Vuter goli',
             city: 'Dhaka',
