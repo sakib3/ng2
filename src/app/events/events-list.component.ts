@@ -3,9 +3,8 @@ import { EventService } from './shared/event.service';
 import { ToastrService } from '../common/toastr.service';
 declare let toastr;
 @Component({
-    selector: 'events-list',
+    // selector: 'events-list',
     template: `
-    <nav-bar></nav-bar>
     <div>
         <h1>Upcomming Events</h1>
         <hr/>

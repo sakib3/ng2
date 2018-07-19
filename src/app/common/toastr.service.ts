@@ -1,17 +1,17 @@
 import { Injectable } from "@angular/core";
-declare let toastr; 
+declare let toastr;
 @Injectable()
-export class ToastrService{
-    success(message:string, title?:string){
+export class ToastrService {
+    success(message: string, title?: string) {
         toastr.success(message, title);
-    }   
-    info(message:string, title?:string){
+    }
+    info(message: string, title?: string) {
         toastr.info(message, title);
     }
-    warning(message:string, title?:string){
+    warning(message: string, title?: string) {
         toastr.warning(message, title);
     }
-    error(message:string, title?:string){
+    error(message: string, title?: string) {
         toastr.error(message, title);
     }
 }

@@ -1,11 +1,14 @@
-import { Injectable } from "../../../../node_modules/@angular/core";
+import { Injectable } from "@angular/core";
 
 @Injectable() 
 export class EventService {
     getEvents(){
         return EVENTS;
     }
+    getEvent = (id: number) => EVENTS.find((e) => e.id == id);
 }
+
+
 const EVENTS = [
     {
         id: 1,
