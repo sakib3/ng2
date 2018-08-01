@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { EventService } from "../shared/event.service";
-import { ActivatedRoute } from "../../../../node_modules/@angular/router";
+import { ActivatedRoute } from "@angular/router";
 
 @Component({
     templateUrl: './event-details.component.html',
