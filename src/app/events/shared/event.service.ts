@@ -28,6 +28,15 @@ const EVENTS: IEvent[] = [
             address: '1057 DT',
             city: 'London',
             country: 'England'
+        },
+        sessions: {
+            id: 1,
+            name: "Angular Rocks",
+            presenter: "John Papa",
+            duration: 1,
+            level: "Intermediate",
+            abstract: `Learn about angular 5`,
+            voters:[]
         }
     },
     {
@@ -41,6 +50,15 @@ const EVENTS: IEvent[] = [
             address: '1057 UX',
             city: 'Dallas',
             country: 'USA'
+        },
+        sessions: {
+            id: 2,
+            name: "React Rocks",
+            presenter: "John Papa",
+            duration: 2,
+            level: "Intermediate",
+            abstract: `Learn about React Native`,
+            voters:[]
         }
     },
     {
@@ -54,6 +72,15 @@ const EVENTS: IEvent[] = [
             address: '7 Vuter goli',
             city: 'Dhaka',
             country: 'Bangladesh'
+        },
+        sessions: {
+            id: 3,
+            name: "Vue Rocks",
+            presenter: "John Papa",
+            duration: 3,
+            level: "Intermediate",
+            abstract: `Learn about Vue JS`,
+            voters:[]
         }
     }
 ];
